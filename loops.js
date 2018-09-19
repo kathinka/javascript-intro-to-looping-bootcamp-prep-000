@@ -1,35 +1,5 @@
-// for loop not being valid even if it does the right operations.
-/*
-var newTextArrays = [];
 
 
-function forLoop(newTextArray){
-
-for(let i=0; i<=25; i++){
-  var tempText=`I am  ${i} strange loops`;
-if(i===0) {
-console.log("never mind me!");
-}   
-
-else if (i===1)
-      {
-        tempText = tempText.slice(0,20);
-        newTextArrays.push(tempText);
-        console.log(tempText);
-    
-      }
-  
-    else{
-  newTextArrays.push(tempText);
-  console.log(tempText);
- 
-      
-    }
-    }
-}
-
-forLoop();
-*/
 //whileLoop task
 //let n = 10;
 function whileLoop(n){
@@ -73,3 +43,4 @@ for(let i=0; i<25; i++){
   
 }return array;
 }
+
